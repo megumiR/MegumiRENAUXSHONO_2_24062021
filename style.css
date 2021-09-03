@@ -145,3 +145,16 @@ html,body{
     color: #0065FC;
     background-color: #DEEBFF;
 }
+
+/*Info icon*/
+.info{
+    display: flex;
+    align-items: center;   /*not with justify content...don't wanna put it in the center*/
+}
+.parentIcon{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
