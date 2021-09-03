@@ -22,6 +22,31 @@ html,body{
 {
     text-decoration: none;
 }
+.borderNone
+{
+    border: none;
+}
+.textBold{
+    font-weight: bold;
+}
+.colorBlue{
+    color: #0065FC;
+}
+.colorClearblue{
+    color: #DEEBFF ;
+}
+.colorGray{
+    color: #F2F2F2;
+}
+.backBlue{
+    background-color: #0065FC;
+}
+.backClearblue{
+    background-color: #DEEBFF ;
+}
+.backGray{
+    background-color: #F2F2F2;
+}
 /**Nav*/
 .sizeNav{
     height: 100px;
@@ -34,14 +59,14 @@ html,body{
     height: 99px;
 }
 .colorLien13 {
-    color: blue;
+    color: #0065FC;
 }
 .colorLien2 {
     color: #000;
 }
 .borderNav
 {
-    border-top: 1px solid blue;
+    border-top: 1px solid #0065FC;     
 }
 .borderNav23
 {
@@ -49,4 +74,33 @@ html,body{
 }
 .margelogo{
     margin-bottom: 7px;
+}
+
+/*Header*/
+.borderSearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.paddingsearch{
+    padding-left: 20px;
+}
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.iconSize{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.btnSearch{
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
 }
