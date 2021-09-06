@@ -129,6 +129,11 @@ html,body{
     cursor: pointer;
     border-radius: 0 10px 10px 0;
 }
+.btnSearch:hover
+{
+    color: #0065FC;
+    background-color: #f2f2f2;
+}
 /*Filtres*/
 .margeFilter{
     margin-top: 50px;
@@ -214,6 +219,10 @@ html,body{
     padding: 1%;
     border-radius: 20px;
 }
+.cardHebergement:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .cardDetailHebergement{
     width: 90%;
 }
@@ -282,6 +291,10 @@ html,body{
     padding: 1% 0 1% 1%;
     border-radius: 20px;
 }
+.cardPopular:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .cardDetailPopular{
     width: 60%;
     padding-left: 5%;
@@ -330,14 +343,20 @@ html,body{
    border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.cardActivity:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
 .cardActivity2356
 {
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2
-    
 }
-
+.cardActivity2356:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
 /*fin*/
 .titleHeight{
     height: 70px;
@@ -412,4 +431,10 @@ html,body{
 .marginBlockFooter3
 {
     margin-right: 15%;
+}
+.footerlineColor{
+    color: #000;
+}
+.footerlineHeight{
+    height: 30px;
 }
