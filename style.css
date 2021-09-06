@@ -77,19 +77,25 @@ html,body{
     width: 140px;
     height: 99px;
 }
-.colorLien13 {
-    color: #0065FC;
-}
-.colorLien2 {
+
+.colorLien {
     color: #000;
 }
+
 .borderNav
 {
-    border-top: 1px solid #0065FC;     
-}
-.borderNav23
-{
     border-top: 1px solid transparent;
+}
+.borderNav:hover 
+{
+    border-top: 1px solid #0065FC; 
+    color: #0065FC;
+    font-size: larger;
+    cursor: pointer;
+}
+.borderNav:hover >a
+{
+    color: #0065FC;
 }
 .margelogo{
     margin-bottom: 7px;
@@ -253,10 +259,157 @@ html,body{
     border-radius: 15px 15px 0 0;
 }
 .imgHebergemnt6{
-    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+}
+/*popular*/
+
+.blockPopular{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blockPopular12{
+    margin-bottom: 20px;
+    height: 540px;
+}
+.cardPopular{
+    background-color: #fff; 
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.cardDetailPopular{
+    width: 60%;
+    padding-left: 5%;
+}
+.imgPopular1{
+    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;   
+}
+.imgPopular2{
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;   
+}
+.imgPopular3{
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;   
+}
+/*Activity*/
+
+.Activity{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.blockActivity{
+    width: 100%;
+    height: 600px;
+}
+.blockActivity2356{
+    width: 23%;
+    height: 600px;
+}
+/*block setting*/
+.cardActivity{
+   width: 23%;
+   border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cardActivity2356
+{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2
+    
+}
+
+/*fin*/
+.titleHeight{
+    height: 70px;
+}
+.titleActivity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imagActivity1{
+    background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0; 
+}
+.imagActivity2{
+    background-image: url(images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0; 
+}
+.imagActivity3{
+    background-image: url(images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0; 
+}
+.imagActivity4{
+    background-image: url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0; 
+}
+.imagActivity5{
+    background-image: url(images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0; 
+}
+.imagActivity6{
+    background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0; 
+}
+/*footer*/
+.footer{
+    height: 300px;
+    margin-top: 100px;
+}
+.sizeBlockFooter{
+    height: 150px;
+}
+.marginBlockFooter1
+{
+    margin-left: 5%;
+}
+.marginBlockFooter3
+{
+    margin-right: 15%;
 }
