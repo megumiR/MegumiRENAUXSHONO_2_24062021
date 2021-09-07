@@ -71,8 +71,15 @@ html,body{
     height: 100px;
 }
 .sizeLiens {   /*45% of the parent box*/
-    width: 45%;
+    width: 100%;
 }
+.linesforjump
+{
+    width: 60%;
+    justify-content: flex-end;
+    margin-right: -20%;
+}
+
 .sizeLien {
     width: 140px;
     height: 99px;
@@ -133,6 +140,10 @@ html,body{
 {
     color: #0065FC;
     background-color: #f2f2f2;
+}
+.smartphone
+{
+    display: none;
 }
 /*Filtres*/
 .margeFilter{
@@ -437,4 +448,41 @@ html,body{
 }
 .footerlineHeight{
     height: 30px;
+}
+
+/*responsive*/
+
+
+@media screen and (max-width:725px) {
+    .flexColumnWrap{
+        flex-flow: column wrap;
+    }
+
+
+    .pc{
+        display: none;
+    }
+    .smartphone
+    {
+        display: unset;
+    }
+    .imgsearch-btn{
+        display: flex;
+    }
+
+
+}
+@media screen and (min-width:725px) and (max-width:1242px) {
+    .linesforjump{
+           margin-right: -20%;
+    }
+
+    
+    .imgHebergemnt1, .imgHebergemnt2, .imgHebergemnt3, .imgHebergemnt4, .imgHebergemnt5, .imgHebergemnt6{
+        height: 100px;
+    }
+    .cardDetailPopular {
+        font-size: smaller;
+    }
+
 }
