@@ -553,6 +553,8 @@ html,body{
     .blockHebergement{
         order: 2;
         background-color: unset;
+        width: 72%;
+        margin-left: 2%;
     }
     .block1, .block2
     {
@@ -585,8 +587,48 @@ html,body{
     .cardPopular{
         margin: 10px 15px 10px 15px;
     }
-   
-
+/*activite*/
+    .blockActivity{
+        flex-direction: column;  
+        height: 1300px;
+    }
+    .cardActivity{
+        width: 95%;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    .blockActivity2356{
+        width: 95%;
+        height: auto;
+    }
+    .cardActivity2356{
+        margin-bottom: 25px;
+    }
+    .imagActivity1, .imagActivity2, .imagActivity3, .imagActivity4, .imagActivity5, .imagActivity6
+    {
+        height: 140px;
+    }
+    .titleActivity{
+        justify-content: flex-start;
+    }
+    .titleHeight{
+        height: 60px;
+    }
+/*footer*/
+    .footer {
+        height: auto;
+        width: 105%;
+        flex-direction: column;
+        padding: 20px 0 30px 0;
+        align-items: flex-start;
+        margin-left: -9px;
+    }
+    .marginBlockFooter1{
+        margin-left: unset;
+    }
+    .sizeBlockFooter{
+        margin-left: 5%;
+    }
 }
 @media screen and (min-width:725px) and (max-width:1242px) {
     .linesforjump{
