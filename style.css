@@ -89,18 +89,18 @@ html,body{
     color: #000;
 }
 
-.borderNav
+.borderNav, .borderNav1
 {
     border-top: 1px solid transparent;
 }
-.borderNav:hover 
+.borderNav:hover, .borderNav1:hover
 {
     border-top: 1px solid #0065FC; 
     color: #0065FC;
     font-size: larger;
     cursor: pointer;
 }
-.borderNav:hover >a
+.borderNav:hover >a, .borderNav1:hover >a
 {
     color: #0065FC;
 }
@@ -153,6 +153,7 @@ html,body{
 .filters{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .margeFilterTitle{
     margin-right: 20px;
@@ -454,12 +455,65 @@ html,body{
 
 
 @media screen and (max-width:725px) {
-    .flexColumnWrap{
-        flex-flow: column wrap;
+    /*nav*/
+    .sizeNav {
+        height: 200px;
     }
+    nav .flexBetween{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .smartphonelogoline{
+        order: 1;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .linesforjump{
+        display: inline-flex;
+        flex: 1 100%;
+        order: 2;
+        justify-content: inherit;
+        margin: 0;
+    }
+    .sizeLien
+    {
+        width: 50%;
+    }
+    .borderNav
+    {
+        border-top: none;
+        border-bottom: 5px solid #F2F2F2;
+    }
+    .borderNav:hover 
+    {
+        border-top: none;
+        border-bottom: 5px solid #0065FC; 
+    }
+    .borderNav:hover >a
+    {
+        border-top: none;
+        color: #0065FC;
+    }
+    .borderNav1{
+        border-top: transparent;
+    }
+    .borderNav1:hover 
+    {
+        border-top: 1px solid #fff;
+    }
+    .borderNav1:hover >a 
+    {
+        color: #0065FC;
+    }
+    /*
+    .filters{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }*/
 
-
-    .pc{
+    .pc
+    {
         display: none;
     }
     .smartphone
