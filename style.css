@@ -106,6 +106,8 @@ html,body{
 }
 .margelogo{
     margin-bottom: 7px;
+    width: 120px;
+    height: 50px;
 }
 
 /*Header*/
@@ -546,6 +548,9 @@ html,body{
         margin-bottom: 15px;
     }
 /*hebergement*/
+    .marginTiltePhone{
+        margin-left: 12px;
+    }
     .flexAround
     {
         flex-direction: column;
@@ -553,7 +558,7 @@ html,body{
     .blockHebergement{
         order: 2;
         background-color: unset;
-        width: 72%;
+        width: 100%;
         margin-left: 2%;
     }
     .block1, .block2
@@ -562,10 +567,12 @@ html,body{
     }
     .cardHebergement 
     {
-        width: 130%;
+        width: 94%;
         height: 200px;
         box-shadow: 2px 2px 2px 2px #f2f2f2;
         margin-bottom: 6%;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .imgHebergemnt1, .imgHebergemnt2, .imgHebergemnt3, .imgHebergemnt4, .imgHebergemnt5, .imgHebergemnt6
     {
@@ -573,8 +580,15 @@ html,body{
     }
     .cardDetailHebergement{
         height: 60px;
+        font-size: smaller;
+        line-height: 0.3;
+        margin-top: -3px;
     }
-
+    .biggerTextPhone
+    {
+        margin-left: 15px;
+        font-size: larger;
+    }
 
     .blockPopular{
         order: 1;
