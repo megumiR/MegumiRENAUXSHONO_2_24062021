@@ -33,9 +33,10 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-
+.flex{
+    display: flex;
+}
 
 .decorationNone
 {
@@ -174,6 +175,7 @@ html,body{
     color: #0065FC;
     font-weight: bold;
     font-size: larger;
+    cursor: pointer;
 }
 .filterText{
     height: 50px;
@@ -280,6 +282,8 @@ section a{
 .cardDetailPopular{
     width: 60%;
     padding-left: 5%;
+    display: flex;
+    flex-direction: column;
 }
 .imgPop{
     width: 35%;
@@ -297,23 +301,15 @@ section a{
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;   
+}*/
+.ratingSize{
+    margin-top: auto;
 }
-.imgPopular2{
-    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;   
+.cardDetailPopular h3{
+    margin-block-start: 5px;
 }
-.imgPopular3{
-    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;   
-}
+
+
 /*Activity*/
 
 .Activity{
@@ -354,7 +350,7 @@ section a{
 }
 .titleActivity{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     padding-left: 5%;
     width: 95%;
@@ -369,10 +365,16 @@ section a{
     height: 530px;
     border-radius: 15px 15px 0 0; 
 }
-.imgActivity2356{
+.imgActivity26{
     object-fit: cover;
     width: 100%;
     height: 250px;
+    border-radius: 15px 15px 0 0; 
+}
+.imgActivity35{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
     border-radius: 15px 15px 0 0; 
 }/*
 .imagActivity1{
@@ -571,7 +573,6 @@ section a{
     }
     .cardDetailHebergement{
         height: 60px;
-        font-size: smaller; /*maybe remove*/
         line-height: 0.3;
         margin-top: -3px;
     }
@@ -609,7 +610,7 @@ section a{
     .cardActivity2356{
         margin-bottom: 25px;
     }
-    .imgActivity14, .imgActivity2356
+    .imgActivity14, .imgActivity35, .imgActivity26
     {
         height: 140px;
     }
@@ -642,7 +643,13 @@ section a{
     .sizePopular, .sizeHebergement{
         height: 700px;
     }
-
+    .smallerLettersize
+    {
+        font-size: 1em;
+    }
+    .ratingSize{
+        font-size: 70%;
+    }
 /*To add 'min-height' for cards works too*/
 
 }
